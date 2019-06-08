@@ -48,12 +48,13 @@
 * S3 One Zone IA: Like S3 IA but data is stored only in one AZ
 * S3 - Intelligent Tiering: optimizes costs by automatically moving data to the most cost-effective tier.
 * S3 Glacier: Most cheap, used for archival only.
- * Retrieval time - minutes to hours
- * It encrypts data by default
- * Regionally availability
- * Designed with 11x9s durability, like S3
-* S3 Glacier Depp Archive: 
-similar to S3 Glacier but lowest cost because retrieval time of 12 hours 
+  * Retrieval time - minutes to hours
+  * It encrypts data by default
+  * Regionally availability
+  * Designed with 11x9s durability, like S3
+ * S3 Glacier Depp Archive: 
+  * similar to S3 Glacier but lowest cost because retrieval time of 12 hours 
+  
 
 
 ### [Charges](https://aws.amazon.com/s3/pricing/)
