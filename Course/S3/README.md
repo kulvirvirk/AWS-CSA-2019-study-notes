@@ -52,7 +52,7 @@
   * It encrypts data by default
   * Regionally availability
   * Designed with 11x9s durability, like S3
- * S3 Glacier Depp Archive: 
+ * S3 Glacier Deep Archive: 
    * similar to S3 Glacier but lowest cost because retrieval time of 12 hours 
   
 
