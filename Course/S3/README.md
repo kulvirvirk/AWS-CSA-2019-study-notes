@@ -67,11 +67,13 @@ S3 is charged for:
 * Data Transfer Pricing
 * Transfer acceleration (it's using CloudFront the AWS CDN) using edge locations
 
-### [Server side Encryption and ACL](https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingServerSideEncryption.html)
-
-* AES-256 Use Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3)
-* AWS-KMS Use Server-Side Encryption with AWS KMS-Managed Keys (SSE-KMS)
-* Server-Side Encryption with Customer-Provided Keys (SSE-C)
+### [S3 Encryption](https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingServerSideEncryption.html)
+Encryption in Transit is achieved by 
+* SSL/TLS
+Encryption At Rest(Server Side)is achieved by
+* Amazon S3-Managed Keys (SSE-S3) - AWS manages the keys for you.
+* AWS Key Mangement Service (SSE-KMS) - you and AWS manage the keys together.
+* Server-Side Encryption with Customer-Provided Keys (SSE-C) - you provide keys to AWS
 
 * Control access to the bucket using bucket ACL or Bucket policies
 * By default all buckets and objects within are private
