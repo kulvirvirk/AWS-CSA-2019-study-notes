@@ -33,9 +33,9 @@ Provides persistent block storage volumes for use with Amazon EC2 instances in t
 
 SSD are good for random access.
 
-1. General Purpose SSD (GP2): 
+1. **General Purpose SSD (GP2)**: 
    * General purpose SSD volume that balances price and performance. 3 [IOPS](https://en.wikipedia.org/wiki/IOPS) per GB, up to 10k IOPS
-2. Provisioned IOPS SSD (io1): 
+2. **Provisioned IOPS SSD** (io1): 
    * Designed for IO intensive, use it if you need more than 10k IOPS
 
 #### HDD (Magnetic)
