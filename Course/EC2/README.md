@@ -41,9 +41,9 @@ SSD are good for random access.
 
 Are great for sequential access (processing log files, bigdata work flows as an example).
 
-* Throughput Optimized HDD (st1): Magnetic disk, this can't be a boot volume (root volume).
-* Cold HDD (sc1): Lower cost storage, like file servers, can't be a boot volume.
-* Magnetic (standard): Lowest cost per gigabyte of all EBS. It's bootable and it's from the previous storage generation.
+3. **Throughput Optimized HDD (st1)**: Magnetic disk, this can't be a boot volume (root volume).
+4. **Cold HDD (sc1)**: Lower cost storage, like file servers, can't be a boot volume.
+2. **Magnetic (standard)**: Lowest cost per gigabyte of all EBS. It's bootable and it's from the previous storage generation.
 
 ### [RAID Arrays using EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/raid-config.html)
 
