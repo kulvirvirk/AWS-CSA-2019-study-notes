@@ -28,9 +28,8 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure,
 Provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. EBS is automatically replicated in a specific AZ
 
 ### [Amazon EBS Volume Types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html)
-
+5 Different Types of EBS Storage: 
 #### SSD
-
 SSD are good for random access.
 
 1. **General Purpose SSD (GP2)**: 
